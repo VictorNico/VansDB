@@ -1,14 +1,26 @@
-const express = require('express');
-const router = express.Router();
+module.exports = app => {
+  import constituants from "../controllers/constituant.mjs";
+  import express from "express";
 
-const userCtrl = require('../controllers/user');
-const middleware = require('../middlewares/auth');
+  let router = express.Router();
 
-router.post('/signup',  userCtrl.signup);
-router.post('/login',  userCtrl.login);
-router.post('/forgot_pwd',  userCtrl.forgot_pwd);
-router.post('/update_account',  middleware ,userCtrl.update_account);
+  // Create a new Tutorial
+  router.post("/", constituants.create);
 
- 
+  // Retrieve all constituants
+  router.get("/", constituants.findAll);
 
-module.exports = router;
+  // Retrieve a single Tutorial with id
+  router.get("/:id", constituants.findOne);
+
+  // Update a Tutorial with id
+  router.put("/:id", constituants.update);
+
+  // Delete a Tutorial with id
+  router.delete("/:id", constituants.delete);
+
+  // Delete all constituants
+  router.delete("/", constituants.deleteAll);
+
+  app.use('/api/constituants', router);
+};
