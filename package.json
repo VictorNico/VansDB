@@ -1,13 +1,13 @@
 {
   "name": "vansdb_mongodb",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon server",
-    "postversion":"git push origin && git push origin --tags",
-    "//":"git push origin && git push origin --tags && npm publish --access public",
+    "postversion": "git push origin && git push origin --tags",
+    "//": "git push origin && git push origin --tags && npm publish --access public",
     "release:major": "npm version major",
     "release:minor": "npm version minor",
     "release:patch": "npm version patch"
