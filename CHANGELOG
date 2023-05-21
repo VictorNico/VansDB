@@ -2,6 +2,7 @@
 Added:
 Changed:
 	- setup amasing postversion action adding version tag on repository
+	- add structure tree in the README.md file
 fixed:
 
 [1.2.0] aims with readme logic
