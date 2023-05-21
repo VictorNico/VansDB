@@ -1,10 +1,16 @@
-[1.2.0] models, controllers and routes declarations
+[1.3.0] optimized release process
+Added:
+Changed:
+	- setup amasing postversion action adding version tag on repository
+fixed:
+
+[1.2.0] aims with readme logic
 Added:
 Changed:
 	- submit a description in the readme.md file
 fixed:
 
-[1.1.1] models, controllers and routes declarations
+[1.1.1] fixed launch bugs
 Added:
 Changed:
 fixed:
