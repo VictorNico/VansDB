@@ -6,6 +6,9 @@ Changed:
 	- .env setting up environment
 	- create customized controllers belong to each objects (CRUD)
 	- join crud to specific route
+	- add script release for semver 
+	- comment {pre|post}version
+
 
 [1.0.0] Initial version
 Added:
