@@ -1,0 +1,23 @@
+[1.1.0] models, controllers and routes declarations
+Added:
+	- .gitignore
+Changed:
+	- customized implementation models/{constituant|entreprise|equipement|gerer|ligneBudgetaire|local|marche|prestation|priseEnCharge|serviceBudgetaire}.mjs
+	- .env setting up environment
+	- create customized controllers belong to each objects (CRUD)
+	- join crud to specific route
+
+[1.0.0] Initial version
+Added:
+	- folders : bd, controllers, models, routes
+	- files: 
+		- index.mjs, 
+		- loadEnvironment.mjs, 
+		- db/conn.mjs, 
+		- models/{constituant|entreprise|equipement|gerer|ligneBudgetaire|local|marche|prestation|priseEnCharge|serviceBudgetaire}.mjs
+		- .env
+		- package{|-lock}.json
+		- CHANGELOG
+		- README.md
+Changed:
+Fixed:
