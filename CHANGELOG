@@ -1,3 +1,11 @@
+[1.1.1] models, controllers and routes declarations
+Added:
+Changed:
+fixed:
+	- convert mjs modules to js files
+	- switch import syntax to require syntax
+	- create model based on Schema.model
+
 [1.1.0] models, controllers and routes declarations
 Added:
 	- .gitignore
@@ -8,6 +16,10 @@ Changed:
 	- join crud to specific route
 	- add script release for semver 
 	- comment {pre|post}version
+fixed:
+	- convert mjs modules to js files
+	- switch import syntax to require syntax
+	- create model based on Schema.model
 
 
 [1.0.0] Initial version
